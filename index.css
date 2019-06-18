@@ -1,16 +1,20 @@
 body {
-	background-color: #B2E9FD;
+  background-color: #b2e9fd;
 }
 
 .header h2 {
-	color: #DC4247;
+  color: #dc4247;
 }
 
 .header p {
-	color: #50524F;
+  color: #50524f;
 }
 
 .results {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
+.card-img-top {
+  height: 25rem;
+  object-fit: cover;
+}
