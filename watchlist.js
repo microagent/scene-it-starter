@@ -2,7 +2,6 @@ let watchlistJSON = localStorage.getItem("watchlist");
 let watchlist = JSON.parse(watchlistJSON);
 
 function renderMovies(movieArray) {
-  console.log("hello world!");
   movieHTML = movieArray.map(currentMovie => {
     return `<div class="mr-3 movie">
     <div class="card h-100" style="width: 18rem;">
